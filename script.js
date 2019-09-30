@@ -28,7 +28,7 @@ fetch('land.json')
             return response.json();
         })
 
-        /* Skapa lista med städer, sortera efter befolkningmängd 
+        /* Skapa lista med städer, sortera efter befolkninsgmängd 
         och lägg städer under varsitt land i listan med länder:*/ 
         .then(function(stader) {
 
